@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 from babel.numbers import format_currency
+from pathlib import Path
 
 sns.set_style("whitegrid")
 
@@ -108,8 +109,10 @@ def create_customer_segment_df(df):
 
 
 # Load Data
-main_df = pd.read_csv("dashboard/main_data.csv")
-product_performance_df = pd.read_csv("dashboard/product_performance.csv")
+BASE_DIR = Path(__file__).resolve().parent
+
+main_df = pd.read_csv(BASE_DIR / "main_data.csv")
+product_performance_df = pd.read_csv(BASE_DIR / "product_performance.csv")
 
 main_df["order_purchase_timestamp"] = pd.to_datetime(main_df["order_purchase_timestamp"])
 
