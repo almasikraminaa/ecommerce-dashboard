@@ -34,9 +34,7 @@ Hasil analisis divisualisasikan dalam bentuk dashboard interaktif menggunakan St
 👥 Segmentasi Pelanggan (RFM)
 - Mayoritas pelanggan termasuk dalam kategori Low Value dan Medium Value Customer.
 - Sebagian kecil pelanggan termasuk High Value Customer, namun memberikan kontribusi besar terhadap revenue.
-- Hal ini menunjukkan peluang untuk:
- - Meningkatkan engagement pelanggan bernilai rendah
- - Memaksimalkan loyalitas pelanggan bernilai tinggi
+- Hal ini menunjukkan peluang untuk meningkatkan engagement pelanggan bernilai rendah dan memaksimalkan loyalitas pelanggan bernilai tinggi
 
 🔍 Insight Distribusi Data (EDA)
 - Distribusi payment_value sangat right-skewed, di mana sebagian besar transaksi bernilai kecil.
@@ -64,8 +62,6 @@ pip install -r requirements.txt
 cd dashboard
 streamlit run dashboard.py
 ```
-- Wilayah SP memberikan kontribusi terbesar terhadap total revenue
-- Mayoritas pelanggan termasuk dalam kategori low value customer berdasarkan analisis RFM
 
 ## Author
 Almas Ikramina
