@@ -21,19 +21,23 @@ Hasil analisis divisualisasikan dalam bentuk dashboard interaktif menggunakan St
 📈 Tren Penjualan
 - Tren penjualan menunjukkan peningkatan dari tahun 2016 hingga 2018, meskipun terdapat fluktuasi di beberapa periode.
 - Kenaikan jumlah order sejalan dengan peningkatan revenue, menunjukkan pertumbuhan permintaan yang konsisten.
+
 📦 Performa Kategori Produk
 - Hanya beberapa kategori produk yang mendominasi revenue secara signifikan.
 - Terdapat perbedaan yang jelas antara kategori dengan performa tinggi dan rendah, menunjukkan adanya konsentrasi penjualan pada kategori tertentu.
+
 🌍 Kontribusi Wilayah
 - State SP (São Paulo) menjadi kontributor terbesar terhadap jumlah transaksi dan revenue.
 - State lain seperti RJ dan MG juga berkontribusi, namun masih jauh di bawah SP.
 - Hal ini menunjukkan adanya ketimpangan distribusi transaksi antar wilayah.
+
 👥 Segmentasi Pelanggan (RFM)
 - Mayoritas pelanggan termasuk dalam kategori Low Value dan Medium Value Customer.
 - Sebagian kecil pelanggan termasuk High Value Customer, namun memberikan kontribusi besar terhadap revenue.
 - Hal ini menunjukkan peluang untuk:
  - Meningkatkan engagement pelanggan bernilai rendah
  - Memaksimalkan loyalitas pelanggan bernilai tinggi
+
 🔍 Insight Distribusi Data (EDA)
 - Distribusi payment_value sangat right-skewed, di mana sebagian besar transaksi bernilai kecil.
 - Terdapat banyak outlier dengan nilai transaksi tinggi, yang berkontribusi besar terhadap total revenue.
